@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <title>Pokedex</title>
+</head>
+<body>
+  <div id="pokedex">
+    <header><img src="/assets/logo.png" id="logo"></header>
+    <form action="" method="get">
+      <label for="pokemon">Digite o nome ou o Número do pokémon</label>
+      <input type="text" name="pokemon" id="pokemon-name" placeholder="Exemplo: Pikachu ou 25" required />
+      <input type="submit" value="Buscar" id="button" />
+    </form>
+    <div id="pokemon-image">
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/132.png" alt="pokemon back" />
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png" alt="pokemon front">
+
+    </div>
+    <div id="pokemon-info">
+      <div id="stats-header">
+        <span id="name">Nome: Ditto</span>
+        <span id="type">Tipo: Normal</span>
+      </div>
+      <div id="stats">
+        <span class="container"> <span id="hp">48</span> </span>
+        <span class="container"> <span id="attack">48</span> </span>
+        <span class="container"> <span id="defense">48</span> </span>
+        <span class="container"> <span id="sp-attack">48</span> </span>
+        <span class="container"> <span id="sp-defense">48</span> </span>
+        <span class="container"> <span id="speed">48</span> </span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
