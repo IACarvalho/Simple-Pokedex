@@ -68,14 +68,6 @@ body {
   color: #333;
 }
 
-#pokedex footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 1rem;
-}
-
 #button {
   background-color: #E5202A;
   border: none;
@@ -100,6 +92,7 @@ body {
 }
 
 #pokemon-info {
+  display: none;
   border: 1px solid #ccc;
   border-radius: 0.5rem;
   padding: 1rem;
@@ -131,58 +124,4 @@ body {
   margin: 0.3rem 0;
   display: flex;
   align-items: center;
-}
-
-#hp {
-  width: 18.823529411764707%;
-  background-color: #E5202A;
-  color: #FFFFFF;
-  text-align: right;
-  text-weight: bold;
-  padding: 0.5rem;
-}
-
-#attack {
-  width: 25.263157894736842%;
-  background-color: #E5202A;
-  color: #FFFFFF;
-  text-align: right;
-  text-weight: bold;
-  padding: 0.5rem;
-}
-
-#defense {
-  width: 20.869565217391305%;
-  background-color: #E5202A;
-  color: #FFFFFF;
-  text-align: right;
-  text-weight: bold;
-  padding: 0.5rem;
-}
-
-#sp-attack {
-  width: 26.666666666666668%;
-  background-color: #E5202A;
-  color: #FFFFFF;
-  text-align: right;
-  text-weight: bold;
-  padding: 0.5rem;
-}
-
-#sp-defense {
-  width: 20.869565217391305%;
-  background-color: #E5202A;
-  color: #FFFFFF;
-  text-align: right;
-  text-weight: bold;
-  padding: 0.5rem;
-}
-
-#speed {
-  width: 24%;
-  background-color: #E5202A;
-  color: #FFFFFF;
-  text-align: right;
-  text-weight: bold;
-  padding: 0.5rem;
 }
